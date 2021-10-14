@@ -1,0 +1,22 @@
+{
+  "name": "pacman",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2"
+  },
+  "scripts": {
+    "start": "npm run start-server",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start-server": "node --experimental-modules server/server.mjs",
+    "start-and-open": "concurrently \"npm run start-server\" \"start http://localhost:3050\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

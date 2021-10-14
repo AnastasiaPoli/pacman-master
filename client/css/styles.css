@@ -1,0 +1,51 @@
+/* ******************************
+       Color Codes
+    *****************************
+    Dark Green : #78BD4C
+     Mid Green : #A8FF56
+          Lite : #ECFFE0
+   Dark Purple : #A22FB0
+*/
+
+html, body {
+    background-color: #78BD4C;
+    height: 100%;
+    width: 100%;
+}
+
+/* ******************************
+          Buttons
+   ****************************** */
+
+.btn {
+    height: 100%;
+    width: 40%;
+    color: #ECFFE0;
+    font-size: 2em;
+    text-align: center;
+    background-color: #8AD453;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.btn:hover{
+    background-color: #3e8e41;
+}
+
+/* ******************************
+          Intro SCREEN
+   ****************************** */
+
+.title {
+    margin: 0px auto;
+    text-align: center;
+    width: 40%;
+    font-family: 'Quicksand', sans-serif;
+    color: #ECFFE0;
+    font-weight: 100;
+    font-size: 90px;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
